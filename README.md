@@ -1,4 +1,4 @@
-### Alphabet Soup Analysis
+# Alphabet Soup Analysis
 
 For this analysis the 3 models were used for final result. First 2 columns where dropped as these didn’t generated value to the investigation. These were the EID and the Name of each of the organizations. Even though for a different investigation these might be relevant for our analysis they didn’t contribute whatsoever. The classification and transaction type were bucketed as these contained a significant amount of unique values that could affect the models to oversight, hence clusters where created. 
 
@@ -14,6 +14,6 @@ The second model used was the Deep Learning model. Using 2 hidden layers both wi
 
 Finally, the Random Forest method was tested yet it only reached a 71% accuracy. 
 
-# Conclusion
+### Conclusion
 
 In the end the Deep Learning model provided the highest accuracy percentage of 73.6% for training and 72.6 for testing. Adding more variables to the Deep Learning model could help reach the desired accuracy percentage, even though adding additional hidden layers could help the model, this could cause the model to be over complicated and the information might be distorted hence the model could fail. It would be best to still use the Deep Learning model but with additional information to be tested and trained.
